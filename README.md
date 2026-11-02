@@ -1,26 +1,30 @@
-# RKK Dienstplan – Downloads
+# RKK Dienstplan · Downloads
 
-Fertige macOS-App für den persönlichen Incode-Dienstplan. Dieses Repository stellt
-Downloads, Versionshinweise und den Sparkle-Updatefeed bereit.
+Fertige macOS-App für den persönlichen Incode-Dienstplan – mit Kalender, Statistiken, Exporten und optionalen Telegram-Meldungen.
+
+**Version 1.8.1 · macOS 14+ · Intel und Apple Silicon**
+
+**[Aktuelle App herunterladen](https://github.com/manueloberberger/rkk-dienstplan-downloads/releases/latest)** · [Alle Veröffentlichungen](https://github.com/manueloberberger/rkk-dienstplan-downloads/releases)
 
 ## Installation
 
-1. Die Universal-ZIP aus dem neuesten Release herunterladen und entpacken.
-2. **RKK Dienstplan.app** nach **Programme** ziehen.
-3. Falls macOS den Start blockiert: unter **Systemeinstellungen → Datenschutz & Sicherheit** die App bewusst freigeben.
+1. Die Universal-ZIP aus dem gewünschten Release herunterladen; eine GitHub-Anmeldung ist für öffentliche Downloads nicht erforderlich.
+2. Entpacken und eine bereits laufende ältere Version beenden.
+3. **RKK Dienstplan.app** nach **Programme** ziehen und öffnen.
+4. Bei einer macOS-Blockierung die App nach Prüfung unter **Systemeinstellungen → Datenschutz & Sicherheit** freigeben.
 
-Benötigt macOS 14 oder neuer. Intel und Apple Silicon enthalten; bisher auf Intel
-live getestet. Die App ist kostenlos ad-hoc signiert und nicht Apple-notarisiert.
-Für eigene Dienstplandaten sind ein berechtigtes Incode-Konto und eine Anmeldung nötig.
-Es werden keine Zugangsdaten oder persönlichen Dienstplandaten mitgeliefert.
+Das Bundle enthält seine Laufzeit. Eine zusätzliche Python-Installation oder die separate Incode-CLI ist nicht nötig. Intel wurde tatsächlich getestet; Apple Silicon ist enthalten und statisch geprüft, ein echter Hardwarelauf steht aus.
 
-## Updates
+Aktuelle Builds verwenden eine dauerhafte Signieridentität. Sie sind nicht Apple-notarisiert. Ältere Releases können noch ad-hoc signiert sein.
 
-Ab Version 1.5 ist **Nach App-Updates suchen …** im App-Menü und in den Einstellungen
-verfügbar. Automatische Prüfungen lassen sich in den Einstellungen einschalten.
-Die Installation wird bestätigt. Sparkle prüft Feed und ZIP mit einer Ed25519-Signatur;
-der private Signaturschlüssel wird nicht veröffentlicht.
+## Einstieg und Updates
 
-Der Quellcode wird separat privat verwaltet. Dieses Repository enthält nur die
-Downloadinformationen und veröffentlichte App-Pakete. Die enthaltenen Fremdbibliotheken
-behalten ihre jeweiligen Lizenzen; Lizenzhinweise sind im App-Bundle enthalten.
+Zum Ausprobieren gibt es Beispieldaten. Eigene Dienste benötigen ein berechtigtes Incode-Konto. Zugangsdaten und persönliche Dienstplandaten werden nicht mitgeliefert.
+
+Unter **Einstellungen → App-Updates** beziehungsweise **Nach App-Updates suchen …** lassen sich neue Versionen suchen und automatische Prüfungen aktivieren. Die Installation wird bestätigt. Sparkle prüft den signierten Updateweg; private Signierschlüssel werden nicht veröffentlicht.
+
+## Inhalt dieses Repositories
+
+Hier liegen Downloadinformationen und Releases mit fertigen App-Paketen sowie dem Sparkle-Updatefeed. Der Entwicklungsquellcode wird getrennt privat verwaltet. Hinweise zu den enthaltenen Fremdbibliotheken liegen im App-Bundle.
+
+Für Fehlerberichte App-Version, macOS-Version und eine Beschreibung der Schritte angeben. Zugangsdaten, Dienstpläne, Kontaktdaten und unbereinigte Logs nicht öffentlich posten.

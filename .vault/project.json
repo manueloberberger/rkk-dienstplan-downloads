@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "project": "rkk-dienstplan-downloads",
+  "repository": "manueloberberger/rkk-dienstplan-downloads",
+  "kind": "data",
+  "components": [],
+  "tools": [
+    "git",
+    "gh",
+    "python3"
+  ],
+  "setup": [],
+  "verify": [
+    "source-check"
+  ],
+  "related": [],
+  "manual": [],
+  "backupRepository": "manueloberberger/project-vault-recovery"
+}

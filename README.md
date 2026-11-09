@@ -2,7 +2,7 @@
 
 Fertige macOS-App für den persönlichen Incode-Dienstplan – mit Kalender, Statistiken, Exporten und optionalen Telegram-Meldungen.
 
-**Version 1.8.1 · macOS 14+ · Intel und Apple Silicon**
+**Version 1.8.2 · macOS 14+ · Intel und Apple Silicon**
 
 **[Aktuelle App herunterladen](https://github.com/manueloberberger/rkk-dienstplan-downloads/releases/latest)** · [Alle Veröffentlichungen](https://github.com/manueloberberger/rkk-dienstplan-downloads/releases)
 
@@ -28,3 +28,5 @@ Unter **Einstellungen → App-Updates** beziehungsweise **Nach App-Updates suche
 Hier liegen Downloadinformationen und Releases mit fertigen App-Paketen sowie dem Sparkle-Updatefeed. Der Entwicklungsquellcode wird getrennt privat verwaltet. Hinweise zu den enthaltenen Fremdbibliotheken liegen im App-Bundle.
 
 Für Fehlerberichte App-Version, macOS-Version und eine Beschreibung der Schritte angeben. Zugangsdaten, Dienstpläne, Kontaktdaten und unbereinigte Logs nicht öffentlich posten.
+
+Version 1.8.2 beendet App-eigene Abrufe und Hilfsprozesse beim Beenden. Der separat eingerichtete Telegram-Botdienst bleibt aktiv.
